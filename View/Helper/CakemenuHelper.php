@@ -78,7 +78,7 @@ class CakemenuHelper extends AppHelper {
 			}
 			$style = '';
 			if($value['Menu']['icon'] != ''){
-				$style = 'padding-left: 30px; background-image: url('.$this->Html->url($value['Menu']['icon']).'); background-repeat: no-repeat; background-position: 5px center;';
+				$style = 'padding-left: 30px; background-image: url('.$this->Html->url($value['Menu']['icon']).'); background-repeat: no-repeat; background-position: 8px center;';
 			}
 			if($value['Menu']['link'] != ''){
 				//Try to evaluate the link (if starts with array)

@@ -45,7 +45,7 @@ class CakemenuComponent extends Component {
    *
    * @return bool
    * */
-  public function initialize($controller) {
+  public function initialize(Controller $controller) {
     
   }
 
@@ -54,11 +54,11 @@ class CakemenuComponent extends Component {
    *
    * @return bool
    * */
-  public function startup($controller) {
+  public function startup(Controller $controller) {
     
   }
 
-  public function shutdown($controller) {
+  public function shutdown(Controller $controller) {
     
   }
 
@@ -69,7 +69,7 @@ class CakemenuComponent extends Component {
    *
    * @return void
    * */
-  public function beforeRender($controller) {
+  public function beforeRender(Controller $controller) {
     
   }
 
